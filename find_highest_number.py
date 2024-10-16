@@ -18,5 +18,6 @@ second_num = float(input("Enter the second number: "))
 third_num = float(input("Enter the third number: "))
 fourth_num = float(input("Enter the fourth number: "))
 fifth_num = float(input("Enter the fifth number: "))
-
-
+#call the method 
+highest_number = find_the_highest_number(first_num, second_num, third_num, fourth_num, fifth_num)
+print(f"Highest number found: {highest_number}")
